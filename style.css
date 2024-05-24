@@ -1,0 +1,508 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    overflow-x: hidden;
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+
+}
+
+.heroSection {
+    background-image: url(imgall/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    display: block;
+}
+
+.textGroup {
+    padding: 18px 0;
+}
+
+.textGroup h2 {
+    font-size: 4rem;
+    color: #1F3C36;
+}
+
+.p--11 {
+    padding: 6px 30px;
+}
+
+.heroMobile {
+    display: none;
+}
+
+.textGroupMobile {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.patternText h2 {
+    font-size: 9rem;
+    font-weight: 700;
+    color: #1F3C36;
+}
+
+.ourText h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.p12 {
+    padding: 10px 50px;
+}
+
+.bgbgb {
+    font-size: 1.4rem;
+}
+
+.textRespo h2 {
+    font-size: 8.1rem;
+    font-weight: 700;
+    text-align: end;
+}
+
+.webImg img {
+    width: 100%;
+}
+
+.img-rew img {
+    width: 100%;
+}
+
+.txt-rew-web {
+    display: flex;
+}
+
+.txt-rew-web .num {
+    font-size: 8rem;
+}
+
+.div-text {
+    padding: 22px 71px;
+}
+
+.faqtext h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1F3C36;
+}
+
+.send-btn {
+    padding: 6px 90px;
+}
+
+.ttyuioojhghj {
+    display: flex;
+    column-gap: 104px;
+}
+
+.footerSection {
+    padding: 69px 0;
+    border-radius: 5px;
+}
+
+.aboutimg img {
+    width: 100%;
+}
+
+.aboutFirstimg img {
+    width: 100%;
+}
+
+.aboutHeading h2 {
+    margin-left: 224px;
+}
+
+.aboutHeading .gggg {
+    margin-left: 410px;
+}
+
+.img-Section img {
+    width: 100%;
+}
+
+.serimg {
+    background-image: url(imgall/servise.png);
+
+}
+
+.serimg h2 {
+    padding: 400px 0px 31px 55px;
+}
+
+.dfghjnb h2 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.imgser {
+    /* width: 300px; */
+    position: relative;
+}
+
+.imgser img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.cintSer {
+    width: 100%;
+    border-radius: 26px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.cintSer:hover {
+    opacity: 1;
+}
+
+.cintSer h2 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-left: 9px;
+}
+
+.cintSer h6 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-left: 8px;
+}
+
+.cintSer>* {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.cintSer:hover>* {
+    transform: translateY(0px);
+}
+
+.aarow {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.img-rew {
+    padding: 116px 6px;
+}
+
+/* slider imd css start  */
+
+.slowFade1 {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    height: 58vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    width: 48.3%;
+    margin: -236px 0px 0px 546px;
+}
+
+.slowFade1 .slide1 img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5) rotate(15deg);
+    -webkit-animation: slowFade1 16s infinite;
+    animation: slowFade1 16s infinite;
+}
+
+.slowFade1 .slide1:nth-child(3) img {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+.slowFade1 .slide1:nth-child(2) img {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+.slowFade1 .slide1:nth-child(1) img {
+    -webkit-animation-delay: 12s;
+    animation-delay:12s;
+}
+
+@keyframes slowFade1 {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slowFade1 {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+
+
+/* hover img  */
+
+
+.box-tasvir {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+@keyframes masihscroll {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-80%);
+    }
+
+    100% {
+        transform: translateY(-0%);
+    }
+}
+
+.box-tasvir img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: all 3s;
+    animation-duration: 10s;
+    animation-name: masihscroll;
+    animation-iteration-count: 1000;
+}
+
+/* second img start css  */
+.box-tasvir1 {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+@keyframes masihscroll1 {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-0%);
+    }
+
+    100% {
+        transform: translateY(-80%);
+    }
+}
+
+.box-tasvir1 img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: all 3s;
+    animation-duration: 10s;
+    animation-name: masihscroll1;
+    animation-iteration-count: 1000;
+}
+
+
+
+.your_frame {
+    width: 535px;
+    height: 362px;
+    overflow: hidden;
+    cursor: pointer;
+    /* display: flex; */
+    position: absolute;
+    right: 150px;
+    top: 238px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background: cover no-repeat;
+    background-image: url(https://source.unsplash.com/400x1500/);
+    transition: background-position 5s ease-out;
+}
+
+.your_frame:hover .background-image {
+    background-position: 0 100%;
+}
+
+.ourSection {
+    background-color: #0B2922;
+}
+
+.imgSection img {
+    width: 100%;
+}
+
+
+/* swipper css start  */
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    padding: 14px 0;
+}
+
+
+/* swipper css end  */
+
+
+
+@media(max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .heroSection {
+        display: none;
+    }
+
+    .box-tasvir {
+        width: auto;
+    }
+
+    .box-tasvir1 {
+        width: auto;
+    }
+
+    .heroMobile {
+        background-image: url(imgall/newimg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 100vh;
+        display: block;
+    }
+
+    .patternText h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #1F3C36;
+    }
+
+    .ourText h2 {
+        font-size: 2.3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .bgbgb {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .btn-our {
+        text-align: center;
+    }
+
+    .textRespo h2 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .div-text {
+        padding: 22px 8px;
+        text-align: justify;
+    }
+
+    .faqtext h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #1F3C36;
+    }
+
+    .ttyuioojhghj {
+        display: block;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .patternText h2 {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #1F3C36;
+    }
+
+    .heroMobile {
+        height: 110vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .your_frame {
+        width: 603px !important;
+        height: 409px !important;
+        overflow: hidden;
+        cursor: pointer;
+        /* display: flex; */
+        position: absolute;
+        right: 167px !important;
+        top: 238px !important;
+    }
+}
